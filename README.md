@@ -38,6 +38,8 @@ I made this because the [Paper](https://github.com/PaperMC/Paper) team refuses t
 
 Unfortunately, this decision made life harder for those of us who want to use Folia anyway. So, why not just make a repo that does nothing but provide these pre-fab builds?
 
+wrld: i made this bcuz i needed auto dev builds !!
+
 ## Support
 
 I don't have any affiliation with Paper or Folia other than being a happy user of theirs. Therefore, I can't provide Folia support here. Check out the [Paper](https://github.com/PaperMC/Paper) page if you need support, though!
