@@ -3,13 +3,13 @@
  
 This repo has automated, nightly builds of the [Folia](https://github.com/PaperMC/Folia) server for Minecraft so that you don't have to build it yourself. 
 
-Every midnight UTC, GitHub Actions runs [the build script](https://github.com/Slackadays/FoliaToGo/blob/main/build.sh) and uploads the server .jar to the [Actions](https://github.com/Slackadays/FoliaToGo/actions) area.
+Every midnight UTC, GitHub Actions runs [the build script](https://github.com/wrldmap/FoliaToGo/blob/main/build.sh) and uploads the server .jar to the [Actions](https://github.com/wrldmap/FoliaToGo/actions) area.
 
 These builds may or may not be up-to-date with the latest Folia commits because they run at a certain time every day.
 
 <h1>
 <p align="center">
-<a href="https://nightly.link/Slackadays/FoliaToGo/workflows/folia/main/FoliaToGo"><code>▶️ Download the latest build</code></a>
+<a href="https://nightly.link/wrldmap/FoliaToGo/workflows/folia/main/FoliaToGo"><code>▶️ Download the latest build</code></a>
 </p>
 </h1>
 
@@ -19,7 +19,7 @@ This method does not work with the Windows command prompt or PowerShell.
 
 First, clone this repo:
 ```sh
-git clone https://github.com/Slackadays/FoliaToGo
+git clone https://github.com/wrldmap/FoliaToGo
 ```
 
 Now go to its directory:
