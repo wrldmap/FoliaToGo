@@ -1,8 +1,10 @@
 #!/bin/sh
-
-git clone https://github.com/PaperMC/Folia
-git config --global user.email "you@example.com"
-git config --global user.name "Your Name"
-cd Folia
-./gradlew applyPatches
-./gradlew createReobfPaperclipJar
+# FoliaToGo buildscript | Edited by wrldmap
+git clone https://github.com/PaperMC/Folia #clone repo
+git config --global user.email "you@example.com" #idk why this here
+git config --global user.name "Your Name" #still dunno
+cd Folia #cd to repo
+git checkout dev/1.21.1 #checkout dev branch
+git pull origin dev/1.21.1 #pull dev branch
+./gradlew applyPatches #apply patches
+./gradlew createReobfPaperclipJar #create jar
