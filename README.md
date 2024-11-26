@@ -1,7 +1,7 @@
 # 🥡🤖 Folia To Go
-![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/slackadays/foliatogo/folia.yml?style=for-the-badge&logo=githubactions&label=BUILDS&labelColor=rgb(55%2C%2055%2C%2055))
+![GitHub Workflow Status (with event)](https://img.shields.io/github/actions/workflow/status/wrldmap/foliatogo/folia.yml?style=for-the-badge&logo=githubactions&label=BUILDS&labelColor=rgb(55%2C%2055%2C%2055))
  
-This repo has automated, nightly builds of the [Folia](https://github.com/PaperMC/Folia) server for Minecraft so that you don't have to build it yourself. 
+This repo has automated, nightly builds of the [Folia](https://github.com/PaperMC/Folia/tree/dev/1.21.1) server for Minecraft so that you don't have to build it yourself. 
 
 Every midnight UTC, GitHub Actions runs [the build script](https://github.com/wrldmap/FoliaToGo/blob/main/build.sh) and uploads the server .jar to the [Actions](https://github.com/wrldmap/FoliaToGo/actions) area.
 
